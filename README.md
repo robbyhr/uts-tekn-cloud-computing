@@ -89,7 +89,7 @@ https://hub.docker.com/_/nextcloud
 ![img](/push13.PNG)
 
 * Tes hasil container menggunakan localhost browser
-<br>> localhost:80
+<br>> http://localhost:80/
 ![img](/push11.PNG)
 
 * Selanjutnya push image yang kita buat ke repository Docker
