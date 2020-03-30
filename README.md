@@ -24,30 +24,30 @@ https://hub.docker.com/_/nextcloud
 <br>
 * Pull Image
 <br>> docker pull nextcloud
-![img](/imgpull1.PNG)
+![img](/pull1.PNG)
 <br>
 <br>
 * Image to Container
 <br>> docker run -d -p 8080:80 nextcloud
-![img](/imgpull2.PNG)
+![img](/pull2.PNG)
 <br>
 <br>
 * Run Container
 <br>> http://localhost:8080/
-![img](/imgpull3.PNG)
+![img](/pull3.PNG)
 <br>
 <br>
 * Stop Container
 <br>> docker container ls
 <br>(melihat list container yg ada)
-![img](/imgpull5.PNG)
+![img](/pull5.PNG)
 <br>
 <br>> docker stop competent_merkle
 <br>("competent_merkle" adalah nama dari image container jika image tidak di beri nama saat membuat "--name [NAME]" maka akan otomatis dibuat)
-![img](/imgpull4.PNG)
+![img](/pull4.PNG)
 <br>
 <br>(Saat container di stop atau hapus, maka webserver akan mati)
-![img](/imgpull6.PNG)
+![img](/pull6.PNG)
 <br>
 <br>
 ### <b>3. Buat Dockerfile untuk Docker Image</b>
