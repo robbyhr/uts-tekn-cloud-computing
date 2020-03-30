@@ -11,8 +11,8 @@
 * Login Dari website.
 ![img](/acc1.PNG)
 
-* Login Dari Aplikasi.
-![img](/acc2.PNG)
+* Login Dari Aplikasi. <br>
+![img](/acc2.png)
 
 ### <b>2. Pilih Image Docker, Pull, dan Run.</b><br>
 * Docker yang dipilih.
