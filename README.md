@@ -7,47 +7,47 @@
 * Sks	 : 2
 
 ## PENJELASAN
-### <b>1. Buat Account Docker Hub</b>
-* Login Dari website
-![img](/acc1.PNG)
+### <b>1. Buat Account Docker Hub.</b>
+* Login Dari website.
+![img](/acc1.PNG).
 
-* Login Dari Aplikasi
+* Login Dari Aplikasi.
 ![img](/acc2.PNG)
 
-### <b>2. Pilih Image Docker, Pull, dan Run</b><br>
-* Docker yang dipilih 
+### <b>2. Pilih Image Docker, Pull, dan Run.</b><br>
+* Docker yang dipilih.
 https://hub.docker.com/_/nextcloud
 <br>(Jenis image : Application Frameworks)
-<br>
-<br>
-* Pull Image
-<br>> docker pull nextcloud
+
+
+* Pull Image.
+<br>> docker pull nextcloud.
 ![img](/pull1.PNG)
-<br>
-<br>
-* Image to Container
-<br>> docker run -d -p 8080:80 nextcloud
+
+
+* Image to Container.
+<br>> docker run -d -p 8080:80 nextcloud.
 ![img](/pull2.PNG)
-<br>
-<br>
-* Run Container
+
+
+* Run Container.
 <br>> http://localhost:8080/
 ![img](/pull3.PNG)
-<br>
-<br>
-* Stop Container
-<br>> docker container ls
+
+
+* Stop Container.
+<br>> docker container ls.
 <br>(melihat list container yg ada)
 ![img](/pull5.PNG)
 <br>
-<br>> docker stop competent_merkle
-<br>("competent_merkle" adalah nama dari image container jika image tidak di beri nama saat membuat "--name [NAME]" maka akan otomatis dibuat)
+<br>> docker stop competent_merkle.
+<br>("competent_merkle" adalah nama dari image container jika image tidak di beri nama saat membuat "--name [NAME]" maka akan otomatis dibuat).
 ![img](/pull4.PNG)
-<br>
+
 <br>(Saat container di stop atau hapus, maka webserver akan mati)
 ![img](/pull6.PNG)
-<br>
-<br>
+
+
 ### <b>3. Buat Dockerfile untuk Docker Image</b><br>
 * Membuat folder "docker-195610118"
 ![img](/push1.PNG)
