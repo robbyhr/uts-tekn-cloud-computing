@@ -15,28 +15,28 @@
 * Login Dari Aplikasi. <br>
 ![img](/acc2.png)
 
-### <b>2. Pilih Image Docker, Pull, dan Run (PENJELASAN).</b><br>
+### <b>2 & 3. Pilih Image Docker, Pull, dan Run (PENJELASAN).</b><br>
 * Docker yang dipilih.
 https://hub.docker.com/_/nextcloud
 <br>(Jenis image : Application Frameworks)
 
 
-* Pull Image.
+* Pull Image, mengambil data docker nextcloud
 <br>> docker pull nextcloud.
 ![img](/pull1.PNG)
 
 
-* Image to Container.
+* Image to Container, menjalankan menjadi container
 <br>> docker run -d -p 8080:80 nextcloud.
 ![img](/pull2.PNG)
 
 
-* Run Container.
+* Run Container, menjalankan webservice di browser dengan localhost
 <br>> http://localhost:8080/
 ![img](/pull3.PNG)
 
 
-* Stop Container.
+* Stop Container, menghentikan container yang sedang berjalan
 <br>> docker container ls.
 <br>(melihat list container yg ada)
 ![img](/pull5.PNG) <br>
@@ -47,7 +47,7 @@ https://hub.docker.com/_/nextcloud
 ![img](/pull6.PNG)
 
 
-### <b>3. Buat Dockerfile untuk Docker Image (PENJELASAN)</b><br>
+### <b>4. Buat Dockerfile untuk Docker Image (PENJELASAN)</b><br>
 * Membuat folder "docker-195610118"
 ![img](/push1.PNG)
 
