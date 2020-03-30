@@ -39,9 +39,9 @@ https://hub.docker.com/_/nextcloud
 <br>> docker container ls.
 <br>(melihat list container yg ada)
 ![img](/pull5.PNG)
-<br>
+
 <br>> docker stop competent_merkle.
-<br>("competent_merkle" adalah nama dari image container jika image tidak di beri nama saat membuat "--name [NAME]" maka akan otomatis dibuat).
+("competent_merkle" adalah nama dari image container jika image tidak di beri nama saat membuat "--name [NAME]" maka akan otomatis dibuat)
 ![img](/pull4.PNG)
 
 <br>(Saat container di stop atau hapus, maka webserver akan mati)
