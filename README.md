@@ -41,7 +41,7 @@ https://hub.docker.com/_/nextcloud
 ![img](/pull5.PNG) <br>
 <br>> docker stop competent_merkle.
 ("competent_merkle" adalah nama dari image container jika image tidak di beri nama saat membuat "--name [NAME]" maka akan otomatis dibuat)
-![img](/pull4.PNG)
+![img](/pull4.PNG) <br>
 <br>(Saat container di stop atau hapus, maka webserver akan mati)
 ![img](/pull6.PNG)
 
