@@ -10,13 +10,11 @@
 ### <b>1. Buat Account Docker Hub</b>
 * Login Dari website
 ![img](/acc1.PNG)
-<br>
-<br>
-* Login Dari Aplikasi<br>
+
+* Login Dari Aplikasi
 ![img](/acc2.PNG)
-<br>
-<br>
-### <b>2. Pilih Image Docker, Pull, dan Run</b>
+
+### <b>2. Pilih Image Docker, Pull, dan Run</b><br>
 * Docker yang dipilih 
 https://hub.docker.com/_/nextcloud
 <br>(Jenis image : Application Frameworks)
@@ -50,7 +48,7 @@ https://hub.docker.com/_/nextcloud
 ![img](/pull6.PNG)
 <br>
 <br>
-### <b>3. Buat Dockerfile untuk Docker Image</b>
+### <b>3. Buat Dockerfile untuk Docker Image</b><br>
 * Membuat folder "docker-195610118"
 ![img](/push1.PNG)
 
