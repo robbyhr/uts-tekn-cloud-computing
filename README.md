@@ -9,7 +9,7 @@
 ## PENJELASAN
 ### <b>1. Buat Account Docker Hub.</b>
 * Login Dari website.
-![img](/acc1.PNG).
+![img](/acc1.PNG)
 
 * Login Dari Aplikasi.
 ![img](/acc2.PNG)
@@ -38,11 +38,10 @@ https://hub.docker.com/_/nextcloud
 * Stop Container.
 <br>> docker container ls.
 <br>(melihat list container yg ada)
-![img](/pull5.PNG)
+![img](/pull5.PNG) <br>
 <br>> docker stop competent_merkle.
 ("competent_merkle" adalah nama dari image container jika image tidak di beri nama saat membuat "--name [NAME]" maka akan otomatis dibuat)
 ![img](/pull4.PNG)
-
 <br>(Saat container di stop atau hapus, maka webserver akan mati)
 ![img](/pull6.PNG)
 
